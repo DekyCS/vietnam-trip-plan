@@ -207,7 +207,7 @@ export const itinerary: DayData[] = [
     ],
     hotels: [
       {
-        name: 'Mandila Beach Hotel',
+        name: 'Kamala Hotel',
         checkIn: 'Mar 23',
         checkOut: 'Mar 24',
         location: 'Da Nang',
@@ -215,7 +215,7 @@ export const itinerary: DayData[] = [
     ],
     activities: [
       { time: '06:30', title: 'Fly HCMC → Da Nang', description: 'VietJet Air VJ 620', type: 'transport' },
-      { time: '07:50', title: 'Arrive Da Nang!', description: 'Check in to Mandila Beach Hotel', type: 'transport' },
+      { time: '07:50', title: 'Arrive Da Nang!', description: 'Check in to Kamala Hotel', type: 'transport' },
       { time: 'Afternoon', title: 'My Khe Beach', description: 'One of the most beautiful beaches in Vietnam', type: 'sightseeing' },
       { time: 'Afternoon', title: 'Dragon Bridge', description: 'Iconic bridge — breathes fire on weekends!', type: 'sightseeing' },
       { time: 'Evening', title: "Jeffrey's Birthday Dinner!", description: 'Celebrate at a beachside restaurant in Da Nang', type: 'food' },
