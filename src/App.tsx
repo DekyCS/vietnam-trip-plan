@@ -1,7 +1,6 @@
 import Hero from './components/Hero';
 import TripOverview from './components/TripOverview';
 import Timeline from './components/Timeline';
-import Navigation from './components/Navigation';
 
 function App() {
   return (
@@ -9,7 +8,6 @@ function App() {
       <Hero />
       <TripOverview />
       <Timeline />
-      <Navigation />
 
       {/* Footer */}
       <footer className="text-center py-10 px-5">

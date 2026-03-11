@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { Plane, Calendar, MapPin } from 'lucide-react';
+import { HugeiconsIcon } from '@hugeicons/react';
+import { AirplaneIcon, Calendar01Icon, MapPinIcon } from '@hugeicons/core-free-icons';
 
 export default function Hero() {
   return (
@@ -21,8 +22,8 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
-          <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-md text-white/90 text-sm font-medium px-4 py-2 rounded-full mb-5">
-            <Plane className="w-4 h-4" />
+          <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-md text-white/90 text-sm font-semibold px-4 py-2 rounded-full mb-5">
+            <HugeiconsIcon icon={AirplaneIcon} size={16} strokeWidth={2.5} />
             <span>Upcoming Trip</span>
           </div>
 
@@ -31,30 +32,19 @@ export default function Hero() {
             <span className="block text-orange-300">Adventure</span>
           </h1>
 
-          <p className="text-white/70 text-lg mb-8 font-medium">
+          <p className="text-white/70 text-lg mb-8 font-semibold">
             From bustling Saigon streets to the golden sands of Da Nang
           </p>
 
           <div className="flex flex-wrap gap-3">
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white text-sm px-4 py-2.5 rounded-2xl">
-              <Calendar className="w-4 h-4 text-orange-300" />
+              <HugeiconsIcon icon={Calendar01Icon} size={16} strokeWidth={2.5} className="text-orange-300" />
               <span>Mar 16 – 27, 2026</span>
             </div>
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white text-sm px-4 py-2.5 rounded-2xl">
-              <MapPin className="w-4 h-4 text-orange-300" />
+              <HugeiconsIcon icon={MapPinIcon} size={16} strokeWidth={2.5} className="text-orange-300" />
               <span>HCMC · Da Nang · Hoi An</span>
             </div>
-          </div>
-        </motion.div>
-
-        {/* Scroll indicator */}
-        <motion.div
-          className="absolute bottom-4 left-1/2 -translate-x-1/2"
-          animate={{ y: [0, 8, 0] }}
-          transition={{ repeat: Infinity, duration: 2 }}
-        >
-          <div className="w-6 h-10 rounded-full border-2 border-white/30 flex justify-center pt-2">
-            <div className="w-1.5 h-1.5 bg-white/60 rounded-full" />
           </div>
         </motion.div>
       </div>

@@ -11,7 +11,7 @@ export default function Timeline() {
         viewport={{ once: true }}
         className="mb-8"
       >
-        <h2 className="text-2xl font-bold text-gray-900">Day by Day</h2>
+        <h2 className="text-2xl font-extrabold text-gray-900">Day by Day</h2>
         <p className="text-sm text-gray-400 mt-1">Your complete itinerary</p>
       </motion.div>
 

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-sans: 'DM Sans', system-ui, sans-serif;
   --color-orange-50: #fff7ed;
   --color-orange-100: #ffedd5;
   --color-orange-200: #fed7aa;
@@ -21,7 +21,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-family: 'DM Sans', system-ui, sans-serif;
   background-color: #fefcf9;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
